@@ -1,6 +1,6 @@
 {
   "name": "@vireo-education/notion-types",
-  "version": "6.16.1",
+  "version": "7.0.0",
   "type": "module",
   "description": "TypeScript types for core Notion data structures.",
   "repository": "vireo-education/react-notion-x",

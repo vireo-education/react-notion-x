@@ -1,6 +1,6 @@
 {
   "name": "@vireo-education/react-notion-x",
-  "version": "6.16.1",
+  "version": "7.0.0",
   "type": "module",
   "description": "Fast and accurate React renderer for Notion.",
   "repository": "vireo-education/react-notion-x",
