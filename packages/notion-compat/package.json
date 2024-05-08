@@ -1,6 +1,6 @@
 {
   "name": "@vireo-education/notion-compat",
-  "version": "6.16.1",
+  "version": "7.0.0",
   "type": "module",
   "description": "Compatibility layer between the official Notion API and unofficial private API.",
   "repository": "vireo-education/react-notion-x",
