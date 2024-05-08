@@ -1,6 +1,6 @@
 {
   "name": "@vireo-education/notion-client",
-  "version": "6.16.2",
+  "version": "6.16.3",
   "type": "module",
   "description": "Robust TypeScript client for the unofficial Notion API.",
   "repository": "vireo-education/react-notion-x",
@@ -22,9 +22,9 @@
     "test": "ava"
   },
   "dependencies": {
+    "@vireo-education/notion-types": "^6.16.3",
+    "@vireo-education/notion-utils": "^6.16.3",
     "got": "^11.8.1",
-    "@vireo-education/notion-types": "^6.16.2",
-    "@vireo-education/notion-utils": "^6.16.2",
     "p-map": "^5.3.0"
   },
   "ava": {
