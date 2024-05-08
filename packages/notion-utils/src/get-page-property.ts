@@ -1,4 +1,8 @@
-import { Block, DateFormat, ExtendedRecordMap } from 'notion-types'
+import {
+  Block,
+  DateFormat,
+  ExtendedRecordMap
+} from '@vireo-education/notion-types'
 
 import { getTextContent } from './get-text-content'
 

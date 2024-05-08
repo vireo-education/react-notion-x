@@ -1,9 +1,9 @@
 {
-  "name": "notion-compat",
-  "version": "6.16.1",
+  "name": "@vireo-education/notion-compat",
+  "version": "6.16.2",
   "type": "module",
   "description": "Compatibility layer between the official Notion API and unofficial private API.",
-  "repository": "NotionX/react-notion-x",
+  "repository": "vireo-education/react-notion-x",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
   "main": "./build/index.js",
@@ -22,13 +22,13 @@
     "test": "ava"
   },
   "dependencies": {
-    "notion-types": "^6.16.1",
-    "notion-utils": "^6.16.1",
+    "@vireo-education/notion-types": "^6.16.2",
+    "@vireo-education/notion-utils": "^6.16.2",
     "p-queue": "^7.2.0"
   },
   "devDependencies": {
     "@notionhq/client": "^1.0.4",
-    "notion-client": "^6.16.1"
+    "@vireo-education/notion-client": "^6.16.2"
   },
   "peerDependencies": {
     "@notionhq/client": "^1.0.4"

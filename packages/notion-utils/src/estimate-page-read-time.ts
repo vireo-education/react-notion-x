@@ -1,4 +1,8 @@
-import { Block, ExtendedRecordMap, PageBlock } from 'notion-types'
+import {
+  Block,
+  ExtendedRecordMap,
+  PageBlock
+} from '@vireo-education/notion-types'
 
 import { getBlockTitle } from './get-block-title'
 import { getPageTableOfContents } from './get-page-table-of-contents'

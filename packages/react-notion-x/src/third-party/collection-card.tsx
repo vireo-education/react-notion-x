@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import { ImageBlock } from 'notion-types'
-import { getTextContent } from 'notion-utils'
+import { ImageBlock } from '@vireo-education/notion-types'
+import { getTextContent } from '@vireo-education/notion-utils'
 
 import { LazyImage } from '../components/lazy-image'
 import { NotionContextProvider, dummyLink, useNotionContext } from '../context'

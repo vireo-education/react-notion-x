@@ -1,8 +1,11 @@
 import * as React from 'react'
 
-import * as types from 'notion-types'
+import * as types from '@vireo-education/notion-types'
+import {
+  getBlockParentPage,
+  getBlockTitle
+} from '@vireo-education/notion-utils'
 import throttle from 'lodash.throttle'
-import { getBlockParentPage, getBlockTitle } from 'notion-utils'
 
 import { NotionContextConsumer, NotionContextProvider } from '../context'
 import { ClearIcon } from '../icons/clear-icon'

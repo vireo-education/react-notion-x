@@ -1,12 +1,12 @@
 // import { promises as fs } from 'fs'
-import * as notion from 'notion-types'
-import got, { OptionsOfJSONResponseBody } from 'got'
+import * as notion from '@vireo-education/notion-types'
 import {
   getBlockCollectionId,
   getPageContentBlockIds,
   parsePageId,
   uuidToId
-} from 'notion-utils'
+} from '@vireo-education/notion-utils'
+import got, { OptionsOfJSONResponseBody } from 'got'
 import pMap from 'p-map'
 
 import * as types from './types'
@@ -234,7 +234,7 @@ export class NotionAPI {
         // console.log(block, source)
 
         if (source) {
-          if (!source.includes('secure.notion-static.com')) {
+          if (!source.includes('prod-files-secure')) {
             return []
           }
 

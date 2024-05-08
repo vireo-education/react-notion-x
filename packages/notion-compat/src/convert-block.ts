@@ -1,4 +1,4 @@
-import * as notion from 'notion-types'
+import * as notion from '@vireo-education/notion-types'
 
 import * as types from './types'
 import { convertColor } from './convert-color'

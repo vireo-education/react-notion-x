@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import { BaseContentBlock, Block } from 'notion-types'
-import { parsePageId } from 'notion-utils'
+import { BaseContentBlock, Block } from '@vireo-education/notion-types'
+import { parsePageId } from '@vireo-education/notion-utils'
 
 import { useNotionContext } from '..'
 import { cs } from '../utils'

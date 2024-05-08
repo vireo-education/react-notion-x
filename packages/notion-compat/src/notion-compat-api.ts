@@ -1,6 +1,6 @@
-import * as notion from 'notion-types'
+import * as notion from '@vireo-education/notion-types'
 import type { Client } from '@notionhq/client'
-import { parsePageId } from 'notion-utils'
+import { parsePageId } from '@vireo-education/notion-utils'
 import PQueue from 'p-queue'
 
 import * as types from './types'

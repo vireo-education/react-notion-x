@@ -1,4 +1,4 @@
-import { Block } from 'notion-types'
+import { Block } from '@vireo-education/notion-types'
 
 export const defaultMapImageUrl = (
   url: string,
@@ -21,7 +21,7 @@ export const defaultMapImageUrl = (
     const u = new URL(url)
 
     if (
-      u.pathname.startsWith('/secure.notion-static.com') &&
+      u.pathname.startsWith('/prod-files-secure') &&
       u.hostname.endsWith('.amazonaws.com')
     ) {
       if (

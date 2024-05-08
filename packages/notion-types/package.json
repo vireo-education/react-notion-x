@@ -1,9 +1,9 @@
 {
-  "name": "notion-types",
-  "version": "6.16.1",
+  "name": "@vireo-education/notion-types",
+  "version": "6.16.2",
   "type": "module",
   "description": "TypeScript types for core Notion data structures.",
-  "repository": "NotionX/react-notion-x",
+  "repository": "vireo-education/react-notion-x",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
   "types": "./build/index.d.ts",

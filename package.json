@@ -10,8 +10,7 @@
     "node": ">=12"
   },
   "workspaces": [
-    "packages/*",
-    "examples/*"
+    "packages/*"
   ],
   "scripts": {
     "build": "run-s build:*",

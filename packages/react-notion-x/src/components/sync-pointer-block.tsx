@@ -3,7 +3,7 @@ import * as React from 'react'
 import {
   Block as BlockType,
   SyncPointerBlock as SyncPointerBlockType
-} from 'notion-types'
+} from '@vireo-education/notion-types'
 
 import { NotionBlockRenderer } from '../renderer'
 

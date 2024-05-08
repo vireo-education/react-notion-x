@@ -1,6 +1,10 @@
-import { BlockMap } from 'notion-types'
+import { BlockMap } from '@vireo-education/notion-types'
 
-export { isUrl, formatDate, formatNotionDateTime } from 'notion-utils'
+export {
+  isUrl,
+  formatDate,
+  formatNotionDateTime
+} from '@vireo-education/notion-utils'
 export * from './map-image-url'
 export * from './map-page-url'
 

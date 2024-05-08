@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import { Block, CalloutBlock, PageBlock } from 'notion-types'
-import { getBlockIcon, getBlockTitle } from 'notion-utils'
+import { Block, CalloutBlock, PageBlock } from '@vireo-education/notion-types'
+import { getBlockIcon, getBlockTitle } from '@vireo-education/notion-utils'
 
 import { useNotionContext } from '../context'
 import { DefaultPageIcon } from '../icons/default-page-icon'

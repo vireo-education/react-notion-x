@@ -1,7 +1,7 @@
 import * as React from 'react'
 
+import { TableOfContentsEntry, uuidToId } from '@vireo-education/notion-utils'
 import throttle from 'lodash.throttle'
-import { TableOfContentsEntry, uuidToId } from 'notion-utils'
 
 import { cs } from '../utils'
 

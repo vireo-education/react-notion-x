@@ -1,4 +1,4 @@
-import { ExtendedRecordMap } from 'notion-types'
+import { ExtendedRecordMap } from '@vireo-education/notion-types'
 
 import { getBlockTitle } from './get-block-title'
 import { getPageProperty } from './get-page-property'

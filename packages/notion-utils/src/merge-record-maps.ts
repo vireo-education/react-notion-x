@@ -1,4 +1,4 @@
-import { ExtendedRecordMap } from 'notion-types'
+import { ExtendedRecordMap } from '@vireo-education/notion-types'
 
 export function mergeRecordMaps(
   recordMapA: ExtendedRecordMap,
