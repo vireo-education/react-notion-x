@@ -1,6 +1,6 @@
 {
   "name": "@vireo-education/notion-utils",
-  "version": "7.0.0",
+  "version": "6.16.1",
   "type": "module",
   "description": "Useful utilities for working with Notion data. Isomorphic.",
   "repository": "vireo-education/react-notion-x",

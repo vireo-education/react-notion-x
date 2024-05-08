@@ -1,6 +1,6 @@
 {
   "name": "@vireo-education/notion-client",
-  "version": "7.0.0",
+  "version": "6.16.1",
   "type": "module",
   "description": "Robust TypeScript client for the unofficial Notion API.",
   "repository": "vireo-education/react-notion-x",
